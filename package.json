@@ -1,0 +1,30 @@
+{
+  "name": "flowx",
+  "version": "1.0.0",
+  "description": "FlowX - Next Generation CEX+DEX Hybrid Exchange",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "deploy:contracts": "cd contracts && pnpm deploy",
+    "market-maker": "cd backend && pnpm market-maker"
+  },
+  "keywords": [
+    "crypto",
+    "exchange",
+    "dex",
+    "cex",
+    "defi",
+    "trading",
+    "web3",
+    "blockchain"
+  ],
+  "author": "旭宁科技 (Xuning Tech AI)",
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^2.8.16"
+  },
+  "packageManager": "pnpm@10.32.1"
+}
